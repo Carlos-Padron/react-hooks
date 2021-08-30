@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CounteAppWithCustomHook from './components/useState/CounteAppWithCustomHook';
+import { Padre } from './components/Tarea/Padre';
 
 ReactDOM.render(
-    <CounteAppWithCustomHook />,
+    <Padre />,
   document.getElementById('root')
 );
 
