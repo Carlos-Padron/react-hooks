@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Padre } from './components/Tarea/Padre';
+import TodoApp from './components/useReducer/TodoApp';
+
 
 ReactDOM.render(
-    <Padre />,
+    <TodoApp />,
   document.getElementById('root')
 );
 
